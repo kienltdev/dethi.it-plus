@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-body {
+    margin-top: 0.5rem;
+}
+
+.nav-bg {
+    /* background-color: aqua; */
+    background: #2193b0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #6dd5ed, #2193b0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgb(92, 180, 198), rgb(189, 229, 235));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 4px;
+}
+
+.nav-link {
+    padding: .5rem 1vw;
+}
+
+body {
+    
+}
+.container-fluid .logo {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(79, 159, 183);
+}
+
+.container-body .form-name {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: rgb(92, 181, 200);
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px -5px black;
+}
+
+/* form .border-form {
+    padding: 0;
+    border: 2px solid #333;
+} */
+
+.col-lg-12 {
+    /* background-color: aquamarine; */
+    padding: 0;
+}
+
+.wrap {
+    /* background-color: blue; */
+    /* padding: 0 2vw; */
+    margin: 0 1vw;
+    padding-bottom: 1vh;
+    border: 3px solid rgb(235,235,235);
+    border-radius: 7px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+}
+
+.text-heading {
+    /* background-color: #2193b0; */
+    /* background-color: rgb(33, 147, 176); */
+    background-color: rgb(92, 180, 198);
+    color: #fff;
+    font-weight: 600;
+    line-height: 38px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 4px 4px 0 0;
+}
+span.required {
+    color: red;
+}
+
+.btn-color {
+    background-color: rgb(219,219,219);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(0 0 0 / 24%);
+    margin: 0px 0px 0px 8px;
+}
+
+.border-form {
+    margin-bottom: 3vh;
+}
